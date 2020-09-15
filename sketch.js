@@ -9,7 +9,7 @@ bullet=createSprite(50,200,50,50);
 wall=createSprite(1200,200,thickness,height/2);
 wall.shapeColor=(80,80,80);
 
-random(40,70); 
+thickness=random(40,70); 
 bullet.velocityX= speed
 }
 
